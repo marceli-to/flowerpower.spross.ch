@@ -1,3 +1,3 @@
-<div {{ $attributes->merge(['class' => 'max-6xl']) }}>
+<div {{ $attributes->merge(['class' => 'max-w-6xl mx-auto']) }}>
   {{ $slot }}
 </div>
