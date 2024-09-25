@@ -23,6 +23,8 @@ export default {
 
       colors: {
         'moss': '#203D00',
+        'fern': '#376C1B',
+        'olive': '#61A142',
       },
 
       fontFamily: {

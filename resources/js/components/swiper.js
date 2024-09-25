@@ -31,7 +31,10 @@ import 'swiper/css/pagination';
           slidesPerView: "2.5",
         },
         1024: {
-          slidesPerView: "3",
+          slidesPerView: "3.5",
+        },
+        1680: {
+          slidesPerView: "4.5",
         },
       },
       navigation: {
