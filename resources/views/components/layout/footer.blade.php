@@ -69,9 +69,9 @@
           <x-buttons.secondary 
             href="https://www.spross.com"
             target="_blank"
-            class="flex gap-x-5">
+            class="flex items-end gap-x-5 group">
             spross.com
-            <x-icons.arrow />
+            <x-icons.arrow class="w-14 h-auto mt-2 group-hover:translate-x-3 transition-transform" />
           </x-buttons.secondary>
         </div>
       </div>

@@ -1,6 +1,16 @@
 <div 
   class="h-screen w-full relative overflow-hidden" 
   data-hero-container>
+
+  <div class="w-full justify-center max-w-[400px] h-full z-50 absolute top-40 right-40">
+    <img 
+      src="{{ asset('media/hero-badge.svg') }}" 
+      width="331" 
+      height="306" 
+      alt=""
+      class="block absolute inset-0" />
+  </div>
+
   <div 
     class="absolute inset-0 w-full h-full bg-cover bg-center bg-hero-image-sm xl:bg-hero-image-lg" 
     data-hero-image>
