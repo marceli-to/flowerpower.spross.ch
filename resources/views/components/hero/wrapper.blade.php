@@ -12,7 +12,7 @@
   </div>
 
   <div 
-    class="absolute inset-0 w-full h-full bg-cover bg-center bg-hero-image-sm xl:bg-hero-image-lg" 
+    class="absolute inset-0 origin-top w-full h-full bg-cover bg-center bg-hero-image-sm xl:bg-hero-image-lg" 
     data-hero-image>
   </div>
   <div class="absolute inset-0 w-full h-full">
