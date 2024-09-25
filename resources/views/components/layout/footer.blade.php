@@ -67,7 +67,8 @@
             Impressum
           </a>
           <x-buttons.secondary 
-            href="/"
+            href="https://www.spross.com"
+            target="_blank"
             class="flex gap-x-5">
             spross.com
             <x-icons.arrow />
