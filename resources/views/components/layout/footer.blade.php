@@ -47,7 +47,7 @@
             href="https://www.spross.com/meta/datenschutz"
             target="_blank"
             title="Datenschutz"
-            class="inline-block mx-3 hover:text-moss transition-colors hover:underline decoration-1 underline-offset-4">
+            class="inline-block mr-3 hover:text-moss transition-colors hover:underline decoration-1 underline-offset-4">
             Datenschutz
           </a>
           <a
