@@ -20,7 +20,8 @@
     <img 
       src="{{ asset('media/logo-claim.png') }}" 
       alt="Spross Transport & Recycling AG" 
-      class="block mx-auto w-full h-auto mt-20 lg:mt-30 max-w-[300px] sm:max-w-[80%] lg:max-w-4xl" />
+      class="block mx-auto w-full h-auto mt-20 lg:mt-30 max-w-[300px] sm:max-w-[80%] lg:max-w-4xl"
+      loading="lazy" />
       <div class="mt-40 md:mt-60 2xl:mt-100">
         <div class="flex justify-center items-center gap-10 lg:gap-15 2xl:gap-20">
           <a 
