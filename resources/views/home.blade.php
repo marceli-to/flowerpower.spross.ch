@@ -34,19 +34,31 @@
   <div class="pl-10 md:pl-20 mt-80 2xl:mt-160">
     <x-swiper.wrapper>
       <x-swiper.slide>
-        <x-media.picture :image="'dummy-1.png'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+        <x-media.picture :image="'spross-flower-power-1'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
       </x-swiper.slide>
       <x-swiper.slide>
-        <x-media.picture :image="'dummy-2.png'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+        <x-media.picture :image="'spross-flower-power-2'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
       </x-swiper.slide>
       <x-swiper.slide>
-        <x-media.picture :image="'dummy-3.png'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+        <x-media.picture :image="'spross-flower-power-3'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
       </x-swiper.slide>
       <x-swiper.slide>
-        <x-media.picture :image="'dummy-4.png'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+        <x-media.picture :image="'spross-flower-power-4'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
       </x-swiper.slide>
       <x-swiper.slide>
-        <x-media.picture :image="'dummy-5.png'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+        <x-media.picture :image="'spross-flower-power-5'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+      </x-swiper.slide>
+      <x-swiper.slide>
+        <x-media.picture :image="'spross-flower-power-6'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+      </x-swiper.slide>
+      <x-swiper.slide>
+        <x-media.picture :image="'spross-flower-power-7'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+      </x-swiper.slide>
+      <x-swiper.slide>
+        <x-media.picture :image="'spross-flower-power-8'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
+      </x-swiper.slide>
+      <x-swiper.slide>
+        <x-media.picture :image="'spross-flower-power-9'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />
       </x-swiper.slide>
     </x-swiper.wrapper>
   </div>

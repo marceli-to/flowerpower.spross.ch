@@ -45,7 +45,7 @@ gsap.registerPlugin(ScrollTrigger);
       return {
         imageScale: 2.2,
         titleY: '-135vh',
-        claimY: '-95vh',
+        claimY: '-90vh',
         badgeOpacityStart: 0.7
       };
     }

@@ -18,7 +18,7 @@
   </div>
   <div class="absolute inset-0 w-full h-full">
     <h1 
-      class="hero-title absolute -bottom-[110px] sm:-bottom-[180px] md:-bottom-[210px] 2xl:-bottom-[355px] left-15 2xl:left-80" 
+      class="hero-title absolute -bottom-[110px] sm:-bottom-[180px] md:-bottom-[210px] 2xl:-bottom-[350px] left-15 2xl:left-80" 
       data-hero-title>
       <x-hero.title class="block w-full h-auto max-w-[80%] sm:max-w-[65%] 2xl:max-w-[890px]" />
     </h1>
