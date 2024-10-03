@@ -1,6 +1,6 @@
-<footer class="mt-20 xl:mt-60 pb-20 xl:pb-60">
+<footer class="mt-30 lg:mt-45 2xl:mt-60 pb-20 2xl:pb-35">
   <x-layout.inner>
-    <div class="flex justify-start flex-wrap gap-15 xl:gap-20">
+    <div class="flex justify-start flex-wrap gap-10 lg:gap-15 2xl:gap-20">
       <x-buttons.primary href="https://www.telezueri.ch/zuerinews/das-steckt-hinter-dem-neuen-wandbild-in-zuerich-west-157226119?utm_source=shared-whatsapp&utm_medium=shared&utm_campaign=Social+Media">
         Bericht auf Tele Züri
       </x-buttons.primary>
@@ -20,9 +20,9 @@
     <img 
       src="{{ asset('media/logo-claim.png') }}" 
       alt="Spross Transport & Recycling AG" 
-      class="block mx-auto w-full h-auto max-w-4xl" />
-      <div class="xl:mt-100">
-        <div class="flex justify-center items-center gap-10 xl:gap-20">
+      class="block mx-auto w-full h-auto mt-20 lg:mt-30 max-w-[300px] sm:max-w-[80%] lg:max-w-4xl" />
+      <div class="mt-40 md:mt-60 2xl:mt-100">
+        <div class="flex justify-center items-center gap-10 lg:gap-15 2xl:gap-20">
           <a 
             href="https://www.facebook.com/Spross.Gruppe" 
             target="_blank"
@@ -40,9 +40,8 @@
             <x-icons.linkedin class="text-fern group-hover:text-moss transition-colors" />
           </a>
         </div>
-        <div class="text-sm text-center text-fern mt-20 xl:mt-40">
-          &copy; Spross-Gruppe, {{ date('Y') }} &mdash;
-          
+        <div class="text-xs lg:text-sm text-center text-fern mt-20 lg:mt-40 leading-7 md:leading-none">
+          <div class="md:inline">&copy; Spross-Gruppe, {{ date('Y') }}</div><span class="hidden md:inline"> &mdash; </span>
           <a 
             href="https://www.spross.com/meta/datenschutz"
             target="_blank"
@@ -69,9 +68,9 @@
           <x-buttons.secondary 
             href="https://www.spross.com"
             target="_blank"
-            class="flex items-end gap-x-5 group">
+            class="flex items-end group mt-10 md:mt-0">
             spross.com
-            <x-icons.arrow class="w-14 h-auto mt-2 group-hover:translate-x-3 transition-transform" />
+            <x-icons.arrow class="w-12 lg:w-14 h-auto mt-4 lg:mt-2 ml-4 group-hover:translate-x-3 transition-transform" />
           </x-buttons.secondary>
         </div>
       </div>

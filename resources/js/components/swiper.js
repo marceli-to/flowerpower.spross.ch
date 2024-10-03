@@ -25,16 +25,19 @@ import 'swiper/css/pagination';
       direction: 'horizontal',
       slidesPerView: "1.5",
       centeredSlides: false,
-      spaceBetween: "20",
+      spaceBetween: "10",
       breakpoints: {
         768: {
           slidesPerView: "2.5",
+          spaceBetween: "20",
         },
         1024: {
           slidesPerView: "3.5",
+          spaceBetween: "20",
         },
         1680: {
           slidesPerView: "4.5",
+          spaceBetween: "20",
         },
       },
       navigation: {

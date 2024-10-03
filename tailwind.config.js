@@ -29,17 +29,21 @@ export default {
       },
 
       fontFamily: {
-        // 'barlow-bold': ['Barlow', ...defaultTheme.fontFamily.sans],
+        'the-sans': ['TheSans', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {
-        'xs': '0.8125rem', // 13px
-        'sm': '0.875rem', // 14px
-        'base': '1rem', // 16px
-        'md': '1.125rem', // 18px
-        'lg': '1.25rem', // 20px
-        'xl': '2.125rem', // 34px
-        '2xl': '2.5rem', // 40px
+        // footer
+        'xs': '1rem', // 16px
+        'sm': '1.125rem', // 18px
+        'md': '1.25rem', // 20px
+        'lg': '1.5rem', // 24px
+        'xl': '1.75rem', // 28px
+        '2xl': '2rem', // 32px
+        '3xl': '2.5rem', // 40px
+        '4xl': '2.75rem', // 44px
+        '5xl': '4rem', // 64px
+        '6xl': '5.125rem', // 82px
       },
 
     },

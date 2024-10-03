@@ -5,12 +5,12 @@
 
 <div class="flex flex-col">
   
-  <x-layout.inner class="mt-40 xl:mt-100">
+  <x-layout.inner class="mt-40 lg:mt-60 2xl:mt-120">
     <p>Im Recyclingwerk von Spross mitten in Zürich läuft immer etwas! Hier wird jeden Tag zerkleinert, sortiert, gesiebt und verwertet, was das Zeug hält. Und neuerdings auch gesprayt! Bye-bye Betongrau: Die international bekannten Schweizer Künstler REDL & BANE haben Turm, Werkgebäude und Mauern auf dem Areal an der Hohlstrasse 330 in ein buntes, urbanes Gesamtkunstwerk verwandelt.</p>
     <p>Auf 1000 Quadratmetern ist so ein starkes Zeichen für Lebensraum mit Zukunft entstanden, in dem clevere Ressourcennutzung und nachhaltiges Denken und Handeln eine zentrale Rolle spielen. Tipp: Den besten Blick auf die wohl spannendste Open-air-Galerie Zürichs hat man von der Hardbrücke aus...</p>
   </x-layout.inner>
   
-  <x-layout.inner class="mt-20 xl:mt-60">
+  <x-layout.inner class="mt-40 lg:mt-60 2xl:mt-120">
     <div x-data="{ selected: null }">
       <x-accordeon.wrapper :index="0">
         <x-accordeon.button :title="'Flowers'" :index="0" />
@@ -31,7 +31,7 @@
     </div>
   </x-layout.inner>
 
-  <div class="pl-20 mt-80 xl:mt-160">
+  <div class="pl-10 md:pl-20 mt-80 2xl:mt-160">
     <x-swiper.wrapper>
       <x-swiper.slide>
         <x-media.picture :image="'dummy-1.png'" :alt="'Title'" class="w-full h-full object-cover aspect-1/1" />

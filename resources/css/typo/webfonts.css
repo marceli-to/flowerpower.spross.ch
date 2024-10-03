@@ -3,3 +3,10 @@
  * -----------------------------------------------------------------------------
 */
 
+@font-face {
+  font-family: 'TheSans';
+  src: url('fonts/TheSansE4s-5_Plain.woff2') format('woff2'), url('fonts/TheSansE4s-5_Plain.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

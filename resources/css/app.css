@@ -9,5 +9,5 @@ main {
 }
 
 main p:not(:last-of-type) {
-  @apply mb-20 xl:mb-40;
+  @apply mb-20 lg:mb-40;
 }

@@ -23,4 +23,4 @@
 @vite('resources/css/app.css')
 @livewireStyles
 </head>
-<body class="antialiased flex flex-col min-h-full text-4xl leading-[1.2] text-moss">
+<body class="antialiased font-the-sans text-md lg:text-xl 2xl:text-3xl leading-[1.2] text-moss flex flex-col min-h-full">
