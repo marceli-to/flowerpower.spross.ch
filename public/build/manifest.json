@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-ebd7c38e.css",
+    "file": "assets/app-4c1bf91f.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -12,16 +12,20 @@
     "css": [
       "assets/app-d66ac298.css"
     ],
-    "file": "assets/app-3777554e.js",
+    "file": "assets/app-404d986a.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
   "resources/media/hero-flowerpower-lg.jpg": {
-    "file": "assets/hero-flowerpower-lg-6f45255e.jpg",
+    "file": "assets/hero-flowerpower-lg-7f17a38f.jpg",
     "src": "resources/media/hero-flowerpower-lg.jpg"
   },
+  "resources/media/hero-flowerpower-md.jpg": {
+    "file": "assets/hero-flowerpower-md-48ac7163.jpg",
+    "src": "resources/media/hero-flowerpower-md.jpg"
+  },
   "resources/media/hero-flowerpower-sm.jpg": {
-    "file": "assets/hero-flowerpower-sm-4cc0c858.jpg",
+    "file": "assets/hero-flowerpower-sm-0efc0c7c.jpg",
     "src": "resources/media/hero-flowerpower-sm.jpg"
   }
 }

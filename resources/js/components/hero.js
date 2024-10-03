@@ -8,14 +8,15 @@ gsap.registerPlugin(ScrollTrigger);
     container: '[data-hero-container]',
     image: '[data-hero-image]',
     title: '[data-hero-title]',
-    claim: '[data-hero-claim]'
+    claim: '[data-hero-claim]',
+    badge: '[data-hero-badge]'
   }
 
   const hero = document.querySelector(selectors.container);
   const heroImage = document.querySelector(selectors.image);
   const heroTitle = document.querySelector(selectors.title);
   const heroClaim = document.querySelector(selectors.claim);
-
+  const heroBadge = document.querySelector(selectors.badge);
   const run = () => {
     gsap.set(heroImage, { scale: 1 });
 
@@ -31,9 +32,10 @@ gsap.registerPlugin(ScrollTrigger);
     });
 
     timeline
-      .to(heroImage, { scale: 1.25, duration: 1 })
-      .to(heroTitle, { y: '-120vh', duration: 1 }, 0)
-      .to(heroClaim, { y: '-120vh', duration: 1 }, 0.2);
+      .to(heroImage, { scale: 2.2, duration: 1 })
+      .to(heroTitle, { y: '-135vh', duration: 1 }, 0)
+      .to(heroClaim, { y: '-100vh', duration: 1 }, 0.2)
+      .to(heroBadge, { opacity: 0, duration: .25 }, 0.7);
   }
 
   document.addEventListener('DOMContentLoaded', run);

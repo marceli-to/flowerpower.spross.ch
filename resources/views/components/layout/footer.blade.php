@@ -1,20 +1,20 @@
 <footer class="mt-20 xl:mt-60 pb-20 xl:pb-60">
   <x-layout.inner>
     <div class="flex justify-start flex-wrap gap-15 xl:gap-20">
-      <x-buttons.primary href="/">
+      <x-buttons.primary href="https://www.telezueri.ch/zuerinews/das-steckt-hinter-dem-neuen-wandbild-in-zuerich-west-157226119?utm_source=shared-whatsapp&utm_medium=shared&utm_campaign=Social+Media">
         Bericht auf Tele Züri
       </x-buttons.primary>
-      <x-buttons.primary href="/" class="bg-moss">
-        Insta Künstler
+      <x-buttons.primary href="https://www.instagram.com/redl_one/" class="bg-moss">
+        Redl
       </x-buttons.primary>
-      <x-buttons.primary href="/">
+      <x-buttons.primary href="https://www.instagram.com/fabian_bane_florin/">
+        Bane
+      </x-buttons.primary>
+      <x-buttons.primary href="https://www.spross.com" class="bg-moss">
         Spross
       </x-buttons.primary>
-      <x-buttons.primary href="/" class="bg-moss">
-        Zeitung
-      </x-buttons.primary>
-      <x-buttons.primary href="/">
-        Video
+      <x-buttons.primary href="https://www.spross.com/transport-recycling">
+        Recyclingwerk
       </x-buttons.primary>
     </div>
     <img 

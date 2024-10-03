@@ -14,6 +14,7 @@ export default {
 
       backgroundImage: {
         'hero-image-sm': "url('../media/hero-flowerpower-sm.jpg')",
+        'hero-image-md': "url('../media/hero-flowerpower-md.jpg')",
         'hero-image-lg': "url('../media/hero-flowerpower-lg.jpg')",
       },
 
