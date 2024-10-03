@@ -1,8 +1,16 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-db615ca3.css",
+    "file": "assets/app-f4cbc6eb.css",
     "isEntry": true,
     "src": "resources/css/app.css"
+  },
+  "resources/fonts/TheSansE4s-5_Plain.woff": {
+    "file": "assets/TheSansE4s-5_Plain-76d6d850.woff",
+    "src": "resources/fonts/TheSansE4s-5_Plain.woff"
+  },
+  "resources/fonts/TheSansE4s-5_Plain.woff2": {
+    "file": "assets/TheSansE4s-5_Plain-540dbb59.woff2",
+    "src": "resources/fonts/TheSansE4s-5_Plain.woff2"
   },
   "resources/js/app.css": {
     "file": "assets/app-d66ac298.css",
