@@ -6,11 +6,11 @@
   <a 
     href="javascript:;" 
     class="js-swiper-prev lg:p-30 absolute z-50 top-1/2 -translate-y-1/2 left-15">
-    <x-icons.prev class="w-36 lg:w-48 h-auto block text-white" />
+    <x-icons.prev class="w-36 lg:w-48 2xl:w-56 h-auto block text-white" />
   </a>
   <a 
     href="javascript:;" 
     class="js-swiper-next lg:p-30 absolute z-50 top-1/2 -translate-y-1/2 right-15">
-    <x-icons.next class="w-36 lg:w-48 h-auto block text-white" />
+    <x-icons.next class="w-36 lg:w-48 2xl:w-56 h-auto block text-white" />
   </a>
 </div>
