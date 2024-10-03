@@ -2,7 +2,7 @@
   class="h-screen w-full relative overflow-hidden" 
   data-hero-container>
 
-  <div class="w-full justify-center max-w-180 md:max-w-[230px] 2xl:max-w-[400px] h-full z-50 absolute top-0 2xl:top-40 right-0 2xl:right-40">
+  <div class="w-full justify-center max-w-180 md:max-w-[230px] 2xl:max-w-[400px] h-full z-50 absolute top-0 2xl:top-30 right-0 2xl:right-30">
     <img 
       src="{{ asset('media/hero-badge.svg') }}" 
       width="331" 
